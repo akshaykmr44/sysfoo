@@ -10,7 +10,7 @@ pipeline{
       stage('build'){
           steps{
              echo 'compile maven app'
-             sh 'maven compile'
+             sh 'mvn compile'
           }
       }
 
